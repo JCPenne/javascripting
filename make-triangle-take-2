@@ -1,0 +1,9 @@
+function returnOne(width) {
+  let string = "";
+  for (let k = 1; k <= width; k++) {
+    for (let l = 2; l <= k; l++) {
+      string = string + "* "
+    }
+    string = string + "* " + "\n";
+  }
+  return string
